@@ -1,0 +1,37 @@
+.header{
+   height: 75px;
+   background-color: black;
+   width: 100%;
+   position: fixed;
+
+   display: flex;
+}
+.leftsec{
+   flex: 1;
+   display: flex;
+   align-items: center;
+}
+.ruicon{
+   margin-left: 10px;
+   width: 60px;
+}
+.rightsec{
+   width: 250px;
+   display: flex;
+   align-items: center;
+}
+.discord{
+   width: 60px;
+   border-radius: 30px;
+   margin-right: 20px;
+}
+.twitter{
+   width: 60px;
+   border-radius: 30px;
+   margin-right: 20px;
+
+}
+.twitch{
+   width: 60px;
+   border-radius: 30px;
+}
