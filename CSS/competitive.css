@@ -1,0 +1,27 @@
+/*new competitive css stuff*/
+.wtf{
+   margin-top: 30px;
+}
+.comptext{
+   color: white;
+   text-align: center;
+   font-size: 4.5vh;
+   line-height: 24px;
+}
+.resources{
+   display: flex;
+}
+.resourceslinks{
+   width: 500px;
+}
+.resourcesimg{
+   flex: 1
+}
+.comingsoonsection{
+   padding-top: 30px;
+   margin:auto;
+   background: rgb(50, 50, 50);
+   min-width: 960px;
+   max-width: 1920px;
+   height:470px;
+}

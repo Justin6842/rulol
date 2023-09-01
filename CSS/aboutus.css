@@ -1,0 +1,83 @@
+.aboutusheader{
+   height: 75px;
+   background-color: rgb(10,10,10);
+   width: 100%;
+   display: flex;
+}
+.aboutusbody{
+   margin: 0;
+   height: 1000px ;
+   width: 100%;   
+   margin: 0rem;
+   overflow: hidden;
+   position: relative;
+}
+.spacebackground{
+   object-fit: cover;
+   width: 100vw;
+}
+.pagetitle{
+   z-index: 99 !important;
+   position: absolute;
+   top: 8vw;
+   left: 15vw;
+   text-align: center;
+   color: white;
+   font-size: 8vh;
+   letter-spacing: -3px;
+}
+#track{
+   width: 3000px;
+   display: flex;
+   position: absolute;
+   gap: 30px;
+   left: 20%;
+   top: 25vw;
+   transform: translate(0%, -35%);
+}
+#track > .profile1{
+   max-width: 20%;
+   border-radius: 10px;
+   height: 450px;
+   object-fit: cover;
+}
+#track > .profile2{
+   max-width: 20%;
+   border-radius: 10px;
+   height: 450px;
+   object-fit: cover;
+}
+#track > .profile3{
+   max-width: 20%;
+   border-radius: 10px;
+   height: 450px;
+   object-fit: cover;
+}
+#track > .profile4{
+   max-width: 20%;
+   border-radius: 10px;
+   height: 450px;
+   object-fit: cover;
+}
+#track > .profile5{
+   max-width: 20%;
+   border-radius: 10px;
+   height: 450px;
+   object-fit: cover;
+}
+#track > .profile6{
+   max-width: 20%;
+   border-radius: 10px;
+   height: 450px;
+   object-fit: cover;
+}
+.hidden{
+   opacity: 0;
+   filter: blur(3px);
+   transition: all 1s;
+}
+
+.show{
+   opacity: 1;
+   filter: blur(0px);
+}

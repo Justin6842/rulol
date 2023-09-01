@@ -1,0 +1,320 @@
+/*for home and competitive pages*/
+.section{
+   overflow: hidden;
+   margin:auto;
+   min-width: 900px;
+   max-width: 1920px;
+   display: flex;
+   height:650px;
+}
+.introtitle{
+   flex: 1;
+   background-color: rgb(31,31,31);
+}
+.title{
+   margin-top: 200px;
+   margin-left: 30px;
+   margin-right: 30px;
+
+   text-align: center;
+   font-size: 50px;
+   line-height: 75px;
+   letter-spacing: -2px;
+   color:rgb(200, 200, 200);
+   font-weight: bold;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.introimg{
+   flex: 8;
+   height: 700px;
+   overflow: hidden;
+}
+.introphoto{
+   width: 100%;
+   height: 100%;
+}
+.missionsection{
+   overflow: hidden;
+   padding-top: 30px;
+   margin:auto;
+   background: linear-gradient(#FF6E6E, rgb(106, 8, 6));
+   min-width: 960px;
+   max-width: 1920px;
+   height:650px;
+}
+.missiontitle{
+   color: rgb(240, 240, 240);
+   text-align: center;
+   font-size: 50px;
+   margin-bottom: 20px;
+   letter-spacing: -1.5px;
+}
+.missiontext{
+   color: rgb(240, 240, 240);
+   text-align: center;
+   margin-left: 15vw;
+   margin-right: 15vw;
+   font-size: 24px;
+   letter-spacing: -0.5px;
+   line-height: 30px;
+
+}
+.gamerdiv{
+   overflow: hidden;
+}
+.gamers{
+   margin-left: 3.66vw;
+   margin-top: 50px;
+   height: 50vh;
+   width: 20vw;
+   object-fit: cover;
+}
+.locationsection{
+   overflow: hidden;
+   margin:auto;
+   background: linear-gradient(rgb(106, 8, 6), rgb(53, 4, 3));
+   min-width: 960px;
+   max-width: 1920px;
+   height:650px;
+}
+
+.locationtitle{
+   margin-left: 5vw;
+   color: rgb(240, 240, 240);
+   font-size: 40px;
+   letter-spacing: -1.5px;
+}
+.locationoptions{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   width: 100%;
+}
+.option{
+   margin-top: 2vh;
+   width:30vw;
+   height: 50vh;
+}
+.optiontitle{
+   text-align: right;
+   color: rgb(240, 240, 240);
+   font-size: 40px;
+   letter-spacing: -1.5px;
+}
+.maplink{
+   margin-left: 5vw;
+   margin-top: 70px;
+   height: 80%;
+}
+.mapimage{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 5px;
+}
+.joinsection{
+   overflow: hidden;
+   margin:auto;
+   background: linear-gradient(rgb(53,4, 3), rgb(0, 0, 0));
+   min-width: 960px;
+   max-width: 1920px;
+   height:650px;
+   padding-bottom: 0px;
+}
+.joinbody{
+   display: flex;
+   margin-top: -8vh;
+}
+.joinpart{
+   flex: 1;
+   min-width: 300px;
+   background: linear-gradient(rgb(53, 4, 3), rgb(35, 1, 1));
+   text-align: center;
+}
+.jointitle{
+   margin-top: 5vh;
+   margin-left: 25px;
+   margin-right: 25px;
+   color: rgb(240, 240, 240);
+   text-align: center;
+   font-size: 7vh;
+   line-height: 75px;
+   letter-spacing: -1.5px;
+   font-weight: bold;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.qr{
+   margin-top: 5vh;
+   height: 35vh;
+}
+
+.joinimg{
+   flex: 8;
+   height: 700px;
+   overflow: hidden;
+}
+.joinphoto{
+   width: 100%;
+   height: 100%;
+}
+/*home welcome page*/
+.homesection{
+   height: 900px;
+   max-width: 1920px;
+   width: 99vw;
+   position: relative;
+   overflow: hidden;
+}
+.homesection::after {
+   content: "Welcome To RULOL";
+   position: absolute;
+   top: 330px;
+   white-space: pre;
+   right: 50%;
+   transform: translateX(50%);
+   font-weight: bold;
+   font-size: 100px;
+   font-family: REM, Arial;
+   color: rgb(236, 98, 98);
+   text-shadow: #ffffff 1px 0 10px;
+   letter-spacing: -3.5px;
+ }
+.slides{
+   overflow: hidden;
+   position: absolute;
+   inset: 0;
+   opacity: 0;
+   animation: slides 24s infinite;
+}
+.slide2{
+   animation-delay: 6s;
+}
+.slide3{
+   animation-delay: 12s;
+}
+.slide4{
+   animation-delay: 18s;
+}
+.homeimages{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+@keyframes slides {
+   0%{
+      opacity: 0;
+   }
+   10%{
+      opacity: 0.8;
+   }
+   30%{
+      opacity: 0.8;
+   }
+   50%{
+      opacity: 0;
+   }
+}
+
+.bubble1 {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+   transform: rotate(180deg);
+}
+
+.bubble1 svg {
+   position: relative;
+   display: block;
+   width: calc(100% + 1.3px);
+   height: 150px;
+   margin-top: -.1vh;
+   transform: rotateY(180deg);
+}
+
+.bubble1 .shape-fill {
+   fill: #FF6E6E;
+}
+
+.hidden{
+   opacity: 0.4;
+   filter: blur(3px);
+   transform: translateX(-20%);
+   transition: all 1s;
+}
+
+.show{
+   opacity: 1;
+   filter: blur(0px);
+   transform: translateX(0%);
+}
+.hidden2{
+   transition-delay: 0.2s;
+}
+.hidden3{
+   transition-delay: 0.4s;
+}
+.hidden4{
+   transition-delay: 0.6s;
+}
+.bubble2 {
+   position: relative;
+   top: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+   transform: rotate(180deg);
+}
+
+.bubble2 svg {
+   position: relative;
+   display: block;
+   width: calc(100% + 1.3px);
+   height: 12vh;
+}
+
+.bubble2 .shape-fill {
+   fill: rgb(106, 8, 6);
+}
+
+.bubble2::after {
+   content: "Locations";
+   position: absolute;
+   left: 45%;
+   top: 6.5vh;
+   font-size: 75px;
+   font-family: REM, Arial;
+   color: white;
+   letter-spacing: -3.5px;
+   transform: rotate(180deg);
+ }
+ .bubble3 {
+   z-index: 90;
+   position: relative;
+   top: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+   transform: rotate(180deg);
+}
+
+.bubble3 svg {
+   position: relative;
+   display: block;
+   width: calc(300% + 1.3px);
+   height: 80px;
+}
+
+.bubble3 .shape-fill {
+   fill: rgb(53, 4, 3);
+}
+.footnote{
+   color: white;
+   font-size: 20px;
+   text-align: center;
+   margin-top: -7vh;
+}

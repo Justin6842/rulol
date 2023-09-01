@@ -1,0 +1,14 @@
+.body{
+   overflow-x: hidden;
+   margin: 0;
+   max-width: 1920px;
+   background-color: black;
+}
+.page{
+   padding-top: 75px;
+}
+p{
+   font-family: REM, Arial;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
