@@ -3,7 +3,7 @@ const welcome = document.getElementById("welcome");
           const events = document.getElementById("events");
           const comp = document.getElementById("competitive");
           welcome.addEventListener("click", function (e) {
-            window.open("home.html", "_self");
+            window.open("index.html", "_self");
           });
           about.addEventListener("click", function (e) {
             window.open("aboutus.html", "_self");
